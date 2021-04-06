@@ -20,5 +20,5 @@ func main() {
 	rest.LanguageHandlers(router)
 
 	// start server but with "router" as second argument
-	log.Fatal(http.ListenAndServe(":8080", router)) // log.Fatal = if error : log(error) + exit(1)
+	log.Fatal(http.ListenAndServe(":9999", router)) // log.Fatal = if error : log(error) + exit(1)
 }

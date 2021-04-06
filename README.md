@@ -30,6 +30,8 @@ __Student :__
 
 ### Utilisation de l'API REST
 
+Le serveur est lancé en local sur le port 9999.
+
 _{entity}_ est à remplacer sois par _students_ sois par _languages_  
 _{key}_ est à remplacer sois par l'_Id_ du student sois par le _Code_ du language  
 
